@@ -85,7 +85,7 @@ cc_library_shared {
                 cflags: [ "-DQCOM_BSP_LEGACY", ],
             },
         },
-        aosip: {
+        colt: {
             uses_media_extensions: {
                 cflags: ["-DTARGET_USES_MEDIA_EXTENSIONS"],
             },
